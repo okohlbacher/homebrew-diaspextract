@@ -6,28 +6,28 @@
 class Diaspextract < Formula
   desc "Pseudo-MS/MS spectra from DIA data (diaPASEF, Orbitrap) for DDA search engines"
   homepage "https://github.com/okohlbacher/diaspextract"
-  version "1.8.0"
+  version "1.8.3"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.0/DIAspeXtract-macos-arm64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.3/DIAspeXtract-macos-arm64.tar.gz"
+      sha256 "541bbfdb7b556c66392ae2ac6f86d8e3e491dc4801edc853b1b0041222a02c78"
     end
     on_intel do
-      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.0/DIAspeXtract-macos-x64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.3/DIAspeXtract-macos-x64.tar.gz"
+      sha256 "eeeddc5035b24c0e2829311e15da5a3ae3c10a025a9ce65f3d98f041c0bdfc96"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.0/DIAspeXtract-linux-arm64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.3/DIAspeXtract-linux-arm64.tar.gz"
+      sha256 "352000859296d47956f2088b7ddf58814ca2e5cf1340eddc2ced4cd1a3a6f796"
     end
     on_intel do
-      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.0/DIAspeXtract-linux-x64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.3/DIAspeXtract-linux-x64.tar.gz"
+      sha256 "493748c9a71f7992ab377f86d361cfe828b1804126520beb18e886174f66825d"
     end
   end
 
