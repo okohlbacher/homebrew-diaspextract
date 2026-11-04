@@ -6,7 +6,7 @@
 class Diaspextract < Formula
   desc "Pseudo-MS/MS spectra from DIA data (diaPASEF, Orbitrap) for DDA search engines"
   homepage "https://github.com/okohlbacher/diaspextract"
-  version "1.8.3"
+  version "1.8.4"
   license "BSD-3-Clause"
   # The bundled libraries' install names are @rpath/<name>; this keeps Homebrew from rewriting them, which would break
   # their Developer ID signatures on macOS and with them the tool's start.
@@ -14,23 +14,23 @@ class Diaspextract < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.3/DIAspeXtract-macos-arm64.tar.gz"
-      sha256 "541bbfdb7b556c66392ae2ac6f86d8e3e491dc4801edc853b1b0041222a02c78"
+      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.4/DIAspeXtract-macos-arm64.tar.gz"
+      sha256 "7a0de7a9bc6641d320b4ed78ef0cc6b67c121732e54128ee598f700731bcd76b"
     end
     on_intel do
-      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.3/DIAspeXtract-macos-x64.tar.gz"
-      sha256 "eeeddc5035b24c0e2829311e15da5a3ae3c10a025a9ce65f3d98f041c0bdfc96"
+      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.4/DIAspeXtract-macos-x64.tar.gz"
+      sha256 "f086254f8a52198e1af6e5feed108748a1b80373125f501e2eddf1495af32bf7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.3/DIAspeXtract-linux-arm64.tar.gz"
-      sha256 "352000859296d47956f2088b7ddf58814ca2e5cf1340eddc2ced4cd1a3a6f796"
+      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.4/DIAspeXtract-linux-arm64.tar.gz"
+      sha256 "f2bb87a4a2ecffdb018b9d2ec757b3230f0b7fd829c9559fd61ce3790dde1577"
     end
     on_intel do
-      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.3/DIAspeXtract-linux-x64.tar.gz"
-      sha256 "493748c9a71f7992ab377f86d361cfe828b1804126520beb18e886174f66825d"
+      url "https://github.com/okohlbacher/diaspextract/releases/download/v1.8.4/DIAspeXtract-linux-x64.tar.gz"
+      sha256 "05cb6654ca6387b43701371f27d9d90652ee969c4f80909499041c0930c025c0"
     end
   end
 
